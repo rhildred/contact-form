@@ -8,7 +8,6 @@ export function SubscriberForm() {
         const formObject = Object.fromEntries(formData.entries());
         console.log(formObject);
     }}>
-      <style>{styles}</style>
       <Form.Field>
         <Form.Label>Username</Form.Label>
         <Form.Control>
@@ -69,6 +68,6 @@ export function SubscriberForm() {
           </Button>
         </Form.Control>
       </Form.Field>
-
+      <style>{styles}</style>
     </form>
 }
