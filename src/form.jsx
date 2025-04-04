@@ -1,4 +1,4 @@
-import 'bulma/css/bulma.min.css';
+import styles from 'bulma/css/bulma.min.css?inline';
 import { Form, Icon, Button } from 'react-bulma-components';
 
 export function SubscriberForm() {
@@ -8,6 +8,7 @@ export function SubscriberForm() {
         const formObject = Object.fromEntries(formData.entries());
         console.log(formObject);
     }}>
+      <style>{styles}</style>
       <Form.Field>
         <Form.Label>Username</Form.Label>
         <Form.Control>
