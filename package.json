@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rhildred/preact-custom-element": "^4.3.1",
     "preact": "^10.26.2",
-    "preact-custom-element": "^4.3.0",
     "react-bulma-components": "^4.1.0"
   },
   "devDependencies": {
+    "@picocss/pico": "^2.1.1",
     "@preact/preset-vite": "^2.10.1",
+    "sass-embedded": "^1.86.3",
     "vite": "^6.2.0"
   }
 }
