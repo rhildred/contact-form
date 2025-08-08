@@ -11,5 +11,10 @@ export default defineConfig({
         assetFileNames: "x-form.[ext]",
       },
     }
-  }
+  },
+    server: {
+    // Alternatively, to allow all hosts (not recommended for security reasons)
+    allowedHosts: true,
+  },
+
 })
